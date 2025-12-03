@@ -18,7 +18,7 @@ std::size_t check_number(std::size_t num) {
 
 
 std::size_t check_range(std::size_t start, std::size_t end) {
-	std::cout << "checking range " << start << "-" << end << std::endl;
+	//std::cout << "checking range " << start << "-" << end << std::endl;
 	std::size_t sum = 0;
 	for (std::size_t i = start; i != end; ++i)
 		sum += check_number(i);
